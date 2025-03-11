@@ -265,36 +265,6 @@ section {
   text-align: center;
 }
 
-/* Projects Section */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.project-card {
-  background-color: var(--color-bg-secondary);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  border: 1px solid var(--color-border);
-  transition: border-color 0.3s;
-}
-
-.project-card:hover {
-  border-color: rgba(34, 211, 238, 0.3);
-}
-
-.project-card h3 {
-  font-size: 1.25rem;
-  margin: 1rem 0 0.5rem;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.project-card p {
-  color: var(--color-text-secondary);
-  margin-bottom: 1rem;
-}
-
 /* Q&A Section */
 .qa {
   background-color: var(--color-bg-secondary);

@@ -25,7 +25,16 @@ document.querySelector(".logo-content").addEventListener("click", () => {
 
 // Check for element click to close the navigation bar
 document.querySelectorAll(".nav-links a").forEach(link => {
-    link.addEventListener("click", () => {
-        toggleMenu()
-    })
+  link.addEventListener("click", () => {
+    toggleMenu()
+  })
 })
+
+//For responsivity with Project Section
+if (window.innerWidth <= 650) {
+  projectRight = document.querySelector("#project-right")
+  projectActive = document.querySelector("#project-active")
+
+  projectRight.appendChild(projectActive.children[0])
+}
+
